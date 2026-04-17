@@ -7,7 +7,7 @@ Full creative control — spring animations, typewriter text, flow diagrams, scr
 ## Install as Claude Code plugin
 
 ```bash
-/plugin marketplace add haavasma/meme-video-generator
+/plugin marketplace add haavasma/meme_video_generator
 /plugin install meme-video@meme-video-generator
 ```
 
@@ -32,8 +32,8 @@ Use with `/meme-video` from any project.
 ## Manual setup (without plugin)
 
 ```bash
-git clone https://github.com/haavasma/meme-video-generator
-cd meme-video-generator
+git clone https://github.com/haavasma/meme_video_generator
+cd meme_video_generator
 make bootstrap
 ```
 
