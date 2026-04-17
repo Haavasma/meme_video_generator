@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "E2E Smoke",
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "backgroundColor": "#111111"
+  },
+  "scenes": [
+    {
+      "type": "title_card",
+      "startSec": 0,
+      "durationSec": 1,
+      "backgroundColor": "#222266",
+      "layers": [
+        {
+          "layerType": "caption",
+          "text": "MEME TEST",
+          "position": "center",
+          "style": "impact",
+          "fontSize": 120,
+          "color": "#FFFFFF",
+          "strokeColor": "#000000",
+          "fadeInFrames": 3
+        }
+      ]
+    },
+    {
+      "type": "caption_only",
+      "startSec": 1,
+      "durationSec": 1,
+      "backgroundColor": "#444400",
+      "layers": [
+        {
+          "layerType": "caption",
+          "text": "it works",
+          "position": "bottom",
+          "style": "impact",
+          "fontSize": 80,
+          "color": "#FFFFFF",
+          "strokeColor": "#000000",
+          "fadeInFrames": 3
+        }
+      ]
+    }
+  ]
+}

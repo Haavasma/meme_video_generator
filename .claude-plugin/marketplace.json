@@ -1,0 +1,15 @@
+{
+  "name": "meme-video-generator",
+  "owner": {
+    "name": "Håvard Stavnås Markhus",
+    "email": "haavard.stavnas.markhus@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "meme-video",
+      "source": "./plugins/meme-video",
+      "description": "Generate meme videos from context input. Bespoke Remotion TSX compositions with full creative control — animations, voiceover, sound effects, meme templates.",
+      "version": "1.0.0"
+    }
+  ]
+}

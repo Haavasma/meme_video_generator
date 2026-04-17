@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+
+# Node / Remotion
+node_modules/
+.remotion/
+video/public/assets/
+
+# Project caches & outputs
+assets/
+output/
+kb/data/
+.chroma/
+
+# Secrets / env
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+coverage/
+Session.vim

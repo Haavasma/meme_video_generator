@@ -1,0 +1,5 @@
+{
+  "name": "meme-video",
+  "version": "1.0.0",
+  "description": "Generate meme videos (.mp4) from context input via bespoke Remotion compositions. Bootstraps from this template repo, creates TSX scenes with spring animations, typewriter text, flow diagrams, screen mockups, voiceover, and sound effects."
+}

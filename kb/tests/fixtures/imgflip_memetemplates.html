@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+a=new XMLHttpRequest();
+a.onload=function(){I=JSON.parse(this.responseText);if(window.initData)initData();};
+a.open('get','/ajax_get_le_data',true);
+a.send();
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DCRTFFEBRL"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-DCRTFFEBRL');
+	gtag('set', 'user_properties', {
+		app_type: (typeof window.matchMedia !== 'undefined' && window.matchMedia('(display-mode: standalone)').matches) ? 'standalone' : 'web'
+	});
+	gtag('config', 'G-X8YQQMPY4Q', {send_page_view: false});
+	window._pwGA4PageviewId = ''.concat(Date.now());
+	gtag('event', 'ramp_js', {
+		send_to: 'G-X8YQQMPY4Q',
+		pageview_id: window._pwGA4PageviewId
+	});
+</script>
+<script>
+version=1478;
+spriteNum=5056;
+IMAGE_DOMAIN='//i.imgflip.com/';
+mm=0;
+</script>
+
+<style>
+.i-banner{width:320px;height:50px;display:block;margin:0 auto;overflow:hidden;}
+@media(min-width:500px){.i-banner{width:468px;height:60px;}}
+@media(min-width:760px){.i-banner{width:728px;height:90px;}}
+</style>
+<link rel="icon" href="/favicon.ico?b"/>
+<link rel="icon" sizes="96x96" href="/imgflip-icon-96.png"/>
+<link rel="icon" sizes="180x180" href="/apple-touch-icon.png?c"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?c"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Imgflip">
+<meta name="theme-color" content="#333"/>
+<link rel="manifest" href="/manifest.json">
+<link rel='stylesheet' href='//s.imgflip.com/v1478/style.css' media='screen'/>
+<title>Meme Templates - Imgflip</title>
+<meta name="description" content="Blank meme templates for the most popular and latest memes. Over 1 million templates, updated continuously."/>
+
+<link rel='stylesheet' href='//s.imgflip.com/v1478/memetemplates.css' media='screen'/>
+
+</head>
+
+<body class="page-full-width fixed-header">
+<script>
+	var dm = document.cookie.match(/(^|;\s?)dm=([^;]+)/);
+	dm = dm ? dm[2] : '';
+	if (dm === '1' || (dm === '' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+		document.body.className += ' darkmode';
+	}
+</script>
+
+<div id="panel-back">
+
+	<div id="panel">
+		<div id="nt-nots-mini" class="darkmode"></div>
+		<a class="nav" href="/">
+			<img id="logo" alt="Imgflip Logo" src="/imgflip_white_96.png">
+			<img id="logo-icon" alt="Imgflip Logo Icon" src="/imgflip-icon-transparent-192.svg">
+		</a>
+
+		<div class="nav menu-wrap" id="nav-make">
+			<div id="nav-make-inner" class="menu-btn nosel down-arrow">Create</div>
+			<div id="make-list" class="menu">
+				<a class="make-item" href="/memegenerator" title="Meme Generator">
+					<svg width=30 height=30 class="make-icon make-icon-meme">
+						<g transform="scale(.3)">
+							<path d="M 20 0 l 30 50 l -50 -10 l 0 -40 z"/>
+							<path d="M 60 0 l 40 0 l -50 50 z"/>
+							<path d="M 100 60 l 0 40 l -20 0 l -30 -50 z"/>
+							<path d="M 40 100 l -40 0 l 50 -50 z"/>
+						</g>
+					</svg>
+					Make a Meme
+				</a>
+				<a class="make-item" href="/gif-maker" title="Animated GIF Maker (from video, youtube, images, etc.)">
+					<svg class="make-icon make-icon-gif">
+						<g transform="scale(.3)">
+							<rect width=66 height=66 x=31 y=3 />
+							<rect width=66 height=66 x=17 y=17 />
+							<rect width=66 height=66 x=3 y=31 />
+							<path d="M 24 50 l 25 14 l -25 14 z"/>
+						</g>
+					</svg>
+					Make a GIF or Short Video
+				</a>
+				<a class="make-item" href="/memetemplates" title="Popular Blank Meme Templates">
+					<div class="make-icon make-icon-meme-templates"></div>
+					Meme Templates
+				</a>
+				<a class="make-item" href="/gif-templates" title="Popular Blank GIF Templates">
+					<svg class="make-icon make-icon-gif-templates" viewBox="0 0 30 30">
+						<g transform="scale(.3)">
+							<path d="M 35 30 l 34 20 l -34 20 z"/>
+						</g>
+					</svg>
+					GIF Templates
+				</a>
+			</div>
+		</div>
+
+		<div class="nav menu-wrap" id="u-menu-wrap">
+			<div id="u-menu-btn" class="menu-btn nosel down-arrow">
+				<span id="u-long"></span>
+			</div>
+			<div id="u-menu" class="menu"></div>
+		</div>
+
+		<div id="nt-count" class="display-none"></div>
+
+		<svg width=30 height=30 id="panel-search-icon" class="s-icon" viewBox="0 0 100 100">
+			<path d="M 20 80 l 25 -25"/>
+			<circle r=20 cx=59 cy=41 />
+		</svg>
+
+		<div class="clear"></div>
+	</div>
+
+	<div id="panel-search-back" class="hidden">
+		<div id="panel-search">
+			<form class="s-form" action="/search" method="get">
+				<input id="panel-search-input" name="q" type="text" placeholder="Search memes, gifs, tags, users" autocomplete="off" autocapitalize="off" autocorrect="off"/>
+			</form>
+			<button type="button" class="s-submit l but">
+				<svg width=26 height=26 class="s-icon" viewBox="0 0 100 100">
+					<path d="M 20 80 l 25 -25"/>
+					<circle r=20 cx=59 cy=41 />
+				</svg>
+			</button>
+		</div>
+	</div>
+
+	<div id="panel-offline-msg" class="display-none"></div>
+</div>
+
+<div id="page">
+
+	<h1 class="mt-header">Meme Templates</h1>
+	<div class="clear"></div>
+	<h2 class="mt-subheader">
+		Blank customizable templates of the most popular trending and latest memes. Over 1 million templates, updated continuously.<br/>
+		To upload your own template, visit the <a href="/memegenerator">Meme Generator</a>
+		and click "Upload new template". To create an animated GIF template,
+		choose a video in the <a href="/gif-maker">GIF Maker</a>
+		and click "Save as Template". User-uploaded templates that become popular may display on this page.
+	</h2>
+
+	<form id="mt-search-panel" action="/memesearch">
+		<input id="mt-search-query" type="search" name="q" placeholder="Search all templates..."/
+		><button type="submit" id="mt-search-submit" class="l but">Search</button>
+		<div class="mt-search-opts display-none">
+			<button type="button" class="check-wrap check-red" title="Check this box to allow adult/not-safe-for-work templates in search results" data-name="nsfw"><svg viewBox="0 0 10 10"><path d="M2,5l2,3l4,-6"/></svg><span class="check-text">NSFW</span></button>			<button type="button" class="check-wrap" title="Check this box to only show animated GIF templates" data-name="gifs_only"><svg viewBox="0 0 10 10"><path d="M2,5l2,3l4,-6"/></svg><span class="check-text">GIFs Only</span></button>		</div>
+			</form>
+
+	<div id="mt-tabs">
+		<a id="mt-tab-memes" class="mt-tab on" href="/memetemplates">Meme Templates</a>
+		<a id="mt-tab-gifs" class="mt-tab" href="/gif-templates">GIF Templates</a>
+		<div id="mt-sort" class="i-select-wrap">
+			<button type="button" class="i-select-btn">Top <small>30 days</small></button>
+			<div class="i-select-dropdown hidden">
+				<div class="i-select-label">Sort By:</div>
+								<a class="i-select-link on" href="/memetemplates">Top <small>30 days</small></a>
+								<a class="i-select-link" href="/memetemplates?sort=top-all-time">Top <small>All Time</small></a>
+								<a class="i-select-link" href="/memetemplates?sort=top-new">Top New</a>
+							</div>
+		</div>
+	</div>
+
+	<div id="mt-boxes-wrap" class="ibox">
+				<div class="mt-boxes"><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Drake Hotline Bling Meme" href="/meme/Drake-Hotline-Bling">Drake Hotline Bling</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Drake Hotline Bling Meme" href="/meme/Drake-Hotline-Bling">
+					<img class="shadow" style="width:150px;height:150px" alt="Drake Hotline Bling Meme Template" src="//i.imgflip.com/4/30b1gx.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Drake Hotline Bling Meme Generator" class="mt-caption l but" href="/memegenerator/Drake-Hotline-Bling">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Two Buttons Meme" href="/meme/Two-Buttons">Two Buttons</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Two Buttons Meme" href="/meme/Two-Buttons">
+					<img class="shadow" style="width:99.118942731278px;height:150px" alt="Two Buttons Meme Template" src="//i.imgflip.com/4/1g8my4.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Two Buttons Meme Generator" class="mt-caption l but" href="/memegenerator/Two-Buttons">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Distracted Boyfriend Meme" href="/meme/Distracted-Boyfriend">Distracted Boyfriend</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:25px;padding-bottom:25px">
+				<a title="Distracted Boyfriend Meme" href="/meme/Distracted-Boyfriend">
+					<img class="shadow" style="width:150px;height:100px" alt="Distracted Boyfriend Meme Template" src="//i.imgflip.com/4/1ur9b0.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Distracted Boyfriend Meme Generator" class="mt-caption l but" href="/memegenerator/Distracted-Boyfriend">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="UNO Draw 25 Cards Meme" href="/meme/UNO-Draw-25-Cards">UNO Draw 25 Cards</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0.90000000000001px;padding-bottom:0.90000000000001px">
+				<a title="UNO Draw 25 Cards Meme" href="/meme/UNO-Draw-25-Cards">
+					<img class="shadow" style="width:150px;height:148.2px" alt="UNO Draw 25 Cards Meme Template" src="//i.imgflip.com/4/3lmzyx.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="UNO Draw 25 Cards Meme Generator" class="mt-caption l but" href="/memegenerator/UNO-Draw-25-Cards">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Bernie I Am Once Again Asking For Your Support Meme" href="/meme/Bernie-I-Am-Once-Again-Asking-For-Your-Support">Bernie I Am Once Again Asking For Your Support</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Bernie I Am Once Again Asking For Your Support Meme" href="/meme/Bernie-I-Am-Once-Again-Asking-For-Your-Support">
+					<img class="shadow" style="width:150px;height:150px" alt="Bernie I Am Once Again Asking For Your Support Meme Template" src="//i.imgflip.com/4/3oevdk.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Bernie I Am Once Again Asking For Your Support Meme Generator" class="mt-caption l but" href="/memegenerator/Bernie-I-Am-Once-Again-Asking-For-Your-Support">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Left Exit 12 Off Ramp Meme" href="/meme/Left-Exit-12-Off-Ramp">Left Exit 12 Off Ramp</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:3.4514925373134px;padding-bottom:3.4514925373134px">
+				<a title="Left Exit 12 Off Ramp Meme" href="/meme/Left-Exit-12-Off-Ramp">
+					<img class="shadow" style="width:150px;height:143.09701492537px" alt="Left Exit 12 Off Ramp Meme Template" src="//i.imgflip.com/4/22bdq6.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Left Exit 12 Off Ramp Meme Generator" class="mt-caption l but" href="/memegenerator/Left-Exit-12-Off-Ramp">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Always Has Been Meme" href="/meme/Always-Has-Been">Always Has Been</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:32.8125px;padding-bottom:32.8125px">
+				<a title="Always Has Been Meme" href="/meme/Always-Has-Been">
+					<img class="shadow" style="width:150px;height:84.375px" alt="Always Has Been Meme Template" src="//i.imgflip.com/4/46e43q.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Always Has Been Meme Generator" class="mt-caption l but" href="/memegenerator/Always-Has-Been">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Anakin Padme 4 Panel Meme" href="/meme/322841258/Anakin-Padme-4-Panel">Anakin Padme 4 Panel</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Anakin Padme 4 Panel Meme" href="/meme/322841258/Anakin-Padme-4-Panel">
+					<img class="shadow" style="width:150px;height:150px" alt="Anakin Padme 4 Panel Meme Template" src="//i.imgflip.com/4/5c7lwq.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Anakin Padme 4 Panel Meme Generator" class="mt-caption l but" href="/memegenerator/322841258/Anakin-Padme-4-Panel">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Gru&#039;s Plan Meme" href="/meme/Grus-Plan">Gru&#039;s Plan</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:26.892857142857px;padding-bottom:26.892857142857px">
+				<a title="Gru&#039;s Plan Meme" href="/meme/Grus-Plan">
+					<img class="shadow" style="width:150px;height:96.214285714286px" alt="Gru&#039;s Plan Meme Template" src="//i.imgflip.com/4/26jxvz.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Gru&#039;s Plan Meme Generator" class="mt-caption l but" href="/memegenerator/Grus-Plan">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Running Away Balloon Meme" href="/meme/Running-Away-Balloon">Running Away Balloon</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Running Away Balloon Meme" href="/meme/Running-Away-Balloon">
+					<img class="shadow" style="width:111.474609375px;height:150px" alt="Running Away Balloon Meme Template" src="//i.imgflip.com/4/261o3j.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Running Away Balloon Meme Generator" class="mt-caption l but" href="/memegenerator/Running-Away-Balloon">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Sad Pablo Escobar Meme" href="/meme/Sad-Pablo-Escobar">Sad Pablo Escobar</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:1.1458333333333px;padding-bottom:1.1458333333333px">
+				<a title="Sad Pablo Escobar Meme" href="/meme/Sad-Pablo-Escobar">
+					<img class="shadow" style="width:150px;height:147.70833333333px" alt="Sad Pablo Escobar Meme Template" src="//i.imgflip.com/4/1c1uej.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Sad Pablo Escobar Meme Generator" class="mt-caption l but" href="/memegenerator/Sad-Pablo-Escobar">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Epic Handshake Meme" href="/meme/Epic-Handshake">Epic Handshake</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:21.25px;padding-bottom:21.25px">
+				<a title="Epic Handshake Meme" href="/meme/Epic-Handshake">
+					<img class="shadow" style="width:150px;height:107.5px" alt="Epic Handshake Meme Template" src="//i.imgflip.com/4/28j0te.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Epic Handshake Meme Generator" class="mt-caption l but" href="/memegenerator/Epic-Handshake">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Disaster Girl Meme" href="/meme/Disaster-Girl">Disaster Girl</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:18.75px;padding-bottom:18.75px">
+				<a title="Disaster Girl Meme" href="/meme/Disaster-Girl">
+					<img class="shadow" style="width:150px;height:112.5px" alt="Disaster Girl Meme Template" src="//i.imgflip.com/4/23ls.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Disaster Girl Meme Generator" class="mt-caption l but" href="/memegenerator/Disaster-Girl">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="X, X Everywhere Meme" href="/meme/X-X-Everywhere">X, X Everywhere</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:24.008498583569px;padding-bottom:24.008498583569px">
+				<a title="X, X Everywhere Meme" href="/meme/X-X-Everywhere">
+					<img class="shadow" style="width:150px;height:101.98300283286px" alt="X, X Everywhere Meme Template" src="//i.imgflip.com/4/1ihzfe.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="X, X Everywhere Meme Generator" class="mt-caption l but" href="/memegenerator/X-X-Everywhere">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Waiting Skeleton Meme" href="/meme/Waiting-Skeleton">Waiting Skeleton</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Waiting Skeleton Meme" href="/meme/Waiting-Skeleton">
+					<img class="shadow" style="width:110.91811414392px;height:150px" alt="Waiting Skeleton Meme Template" src="//i.imgflip.com/4/2fm6x.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Waiting Skeleton Meme Generator" class="mt-caption l but" href="/memegenerator/Waiting-Skeleton">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Woman Yelling At Cat Meme" href="/meme/Woman-Yelling-At-Cat">Woman Yelling At Cat</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:26.691176470588px;padding-bottom:26.691176470588px">
+				<a title="Woman Yelling At Cat Meme" href="/meme/Woman-Yelling-At-Cat">
+					<img class="shadow" style="width:150px;height:96.617647058824px" alt="Woman Yelling At Cat Meme Template" src="//i.imgflip.com/4/345v97.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Woman Yelling At Cat Meme Generator" class="mt-caption l but" href="/memegenerator/Woman-Yelling-At-Cat">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Batman Slapping Robin Meme" href="/meme/Batman-Slapping-Robin">Batman Slapping Robin</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:2.4375px;padding-bottom:2.4375px">
+				<a title="Batman Slapping Robin Meme" href="/meme/Batman-Slapping-Robin">
+					<img class="shadow" style="width:150px;height:145.125px" alt="Batman Slapping Robin Meme Template" src="//i.imgflip.com/4/9ehk.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Batman Slapping Robin Meme Generator" class="mt-caption l but" href="/memegenerator/Batman-Slapping-Robin">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Mocking Spongebob Meme" href="/meme/Mocking-Spongebob">Mocking Spongebob</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:22.260956175299px;padding-bottom:22.260956175299px">
+				<a title="Mocking Spongebob Meme" href="/meme/Mocking-Spongebob">
+					<img class="shadow" style="width:150px;height:105.4780876494px" alt="Mocking Spongebob Meme Template" src="//i.imgflip.com/4/1otk96.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Mocking Spongebob Meme Generator" class="mt-caption l but" href="/memegenerator/Mocking-Spongebob">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Change My Mind Meme" href="/meme/Change-My-Mind">Change My Mind</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:18.827800829876px;padding-bottom:18.827800829876px">
+				<a title="Change My Mind Meme" href="/meme/Change-My-Mind">
+					<img class="shadow" style="width:150px;height:112.34439834025px" alt="Change My Mind Meme Template" src="//i.imgflip.com/4/24y43o.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Change My Mind Meme Generator" class="mt-caption l but" href="/memegenerator/Change-My-Mind">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Trade Offer Meme" href="/meme/309868304/Trade-Offer">Trade Offer</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Trade Offer Meme" href="/meme/309868304/Trade-Offer">
+					<img class="shadow" style="width:114.6725440806px;height:150px" alt="Trade Offer Meme Template" src="//i.imgflip.com/4/54hjww.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Trade Offer Meme Generator" class="mt-caption l but" href="/memegenerator/309868304/Trade-Offer">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Buff Doge vs. Cheems Meme" href="/meme/Buff-Doge-vs-Cheems">Buff Doge vs. Cheems</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:17.369263607257px;padding-bottom:17.369263607257px">
+				<a title="Buff Doge vs. Cheems Meme" href="/meme/Buff-Doge-vs-Cheems">
+					<img class="shadow" style="width:150px;height:115.26147278549px" alt="Buff Doge vs. Cheems Meme Template" src="//i.imgflip.com/4/43a45p.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Buff Doge vs. Cheems Meme Generator" class="mt-caption l but" href="/memegenerator/Buff-Doge-vs-Cheems">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Y&#039;all Got Any More Of That Meme" href="/meme/Yall-Got-Any-More-Of-That">Y&#039;all Got Any More Of That</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:16.125px;padding-bottom:16.125px">
+				<a title="Y&#039;all Got Any More Of That Meme" href="/meme/Yall-Got-Any-More-Of-That">
+					<img class="shadow" style="width:150px;height:117.75px" alt="Y&#039;all Got Any More Of That Meme Template" src="//i.imgflip.com/4/21uy0f.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Y&#039;all Got Any More Of That Meme Generator" class="mt-caption l but" href="/memegenerator/Yall-Got-Any-More-Of-That">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Expanding Brain Meme" href="/meme/Expanding-Brain">Expanding Brain</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Expanding Brain Meme" href="/meme/Expanding-Brain">
+					<img class="shadow" style="width:106.94675540765px;height:150px" alt="Expanding Brain Meme Template" src="//i.imgflip.com/4/1jwhww.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Expanding Brain Meme Generator" class="mt-caption l but" href="/memegenerator/Expanding-Brain">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Bike Fall Meme" href="/meme/Bike-Fall">Bike Fall</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Bike Fall Meme" href="/meme/Bike-Fall">
+					<img class="shadow" style="width:110.29411764706px;height:150px" alt="Bike Fall Meme Template" src="//i.imgflip.com/4/1b42wl.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Bike Fall Meme Generator" class="mt-caption l but" href="/memegenerator/Bike-Fall">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="This Is Fine Meme" href="/meme/This-Is-Fine">This Is Fine</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:38.534482758621px;padding-bottom:38.534482758621px">
+				<a title="This Is Fine Meme" href="/meme/This-Is-Fine">
+					<img class="shadow" style="width:150px;height:72.931034482759px" alt="This Is Fine Meme Template" src="//i.imgflip.com/4/wxica.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="This Is Fine Meme Generator" class="mt-caption l but" href="/memegenerator/This-Is-Fine">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="One Does Not Simply Meme" href="/meme/One-Does-Not-Simply">One Does Not Simply</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:30.765845070423px;padding-bottom:30.765845070423px">
+				<a title="One Does Not Simply Meme" href="/meme/One-Does-Not-Simply">
+					<img class="shadow" style="width:150px;height:88.468309859155px" alt="One Does Not Simply Meme Template" src="//i.imgflip.com/4/1bij.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="One Does Not Simply Meme Generator" class="mt-caption l but" href="/memegenerator/One-Does-Not-Simply">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Tuxedo Winnie The Pooh Meme" href="/meme/Tuxedo-Winnie-The-Pooh">Tuxedo Winnie The Pooh</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:20.4375px;padding-bottom:20.4375px">
+				<a title="Tuxedo Winnie The Pooh Meme" href="/meme/Tuxedo-Winnie-The-Pooh">
+					<img class="shadow" style="width:150px;height:109.125px" alt="Tuxedo Winnie The Pooh Meme Template" src="//i.imgflip.com/4/2ybua0.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Tuxedo Winnie The Pooh Meme Generator" class="mt-caption l but" href="/memegenerator/Tuxedo-Winnie-The-Pooh">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Is This A Pigeon Meme" href="/meme/Is-This-A-Pigeon">Is This A Pigeon</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:7.65595463138px;padding-bottom:7.65595463138px">
+				<a title="Is This A Pigeon Meme" href="/meme/Is-This-A-Pigeon">
+					<img class="shadow" style="width:150px;height:134.68809073724px" alt="Is This A Pigeon Meme Template" src="//i.imgflip.com/4/1o00in.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Is This A Pigeon Meme Generator" class="mt-caption l but" href="/memegenerator/Is-This-A-Pigeon">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Ancient Aliens Meme" href="/meme/Ancient-Aliens">Ancient Aliens</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:9.45px;padding-bottom:9.45px">
+				<a title="Ancient Aliens Meme" href="/meme/Ancient-Aliens">
+					<img class="shadow" style="width:150px;height:131.1px" alt="Ancient Aliens Meme Template" src="//i.imgflip.com/4/26am.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Ancient Aliens Meme Generator" class="mt-caption l but" href="/memegenerator/Ancient-Aliens">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="They&#039;re The Same Picture Meme" href="/meme/Theyre-The-Same-Picture">They&#039;re The Same Picture</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="They&#039;re The Same Picture Meme" href="/meme/Theyre-The-Same-Picture">
+					<img class="shadow" style="width:134.15354330709px;height:150px" alt="They&#039;re The Same Picture Meme Template" src="//i.imgflip.com/4/2za3u1.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="They&#039;re The Same Picture Meme Generator" class="mt-caption l but" href="/memegenerator/Theyre-The-Same-Picture">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="0 days without (Lenny, Simpsons) Meme" href="/meme/427308417/0-days-without-Lenny-Simpsons">0 days without (Lenny, Simpsons)</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:26.171243941842px;padding-bottom:26.171243941842px">
+				<a title="0 days without (Lenny, Simpsons) Meme" href="/meme/427308417/0-days-without-Lenny-Simpsons">
+					<img class="shadow" style="width:150px;height:97.657512116317px" alt="0 days without (Lenny, Simpsons) Meme Template" src="//i.imgflip.com/4/72epa9.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="0 days without (Lenny, Simpsons) Meme Generator" class="mt-caption l but" href="/memegenerator/427308417/0-days-without-Lenny-Simpsons">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Absolute Cinema Meme" href="/meme/505705955/Absolute-Cinema">Absolute Cinema</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:16.907051282051px;padding-bottom:16.907051282051px">
+				<a title="Absolute Cinema Meme" href="/meme/505705955/Absolute-Cinema">
+					<img class="shadow" style="width:150px;height:116.1858974359px" alt="Absolute Cinema Meme Template" src="//i.imgflip.com/4/8d317n.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Absolute Cinema Meme Generator" class="mt-caption l but" href="/memegenerator/505705955/Absolute-Cinema">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Mother Ignoring Kid Drowning In A Pool Meme" href="/meme/252758727/Mother-Ignoring-Kid-Drowning-In-A-Pool">Mother Ignoring Kid Drowning In A Pool</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Mother Ignoring Kid Drowning In A Pool Meme" href="/meme/252758727/Mother-Ignoring-Kid-Drowning-In-A-Pool">
+					<img class="shadow" style="width:113.66279069767px;height:150px" alt="Mother Ignoring Kid Drowning In A Pool Meme Template" src="//i.imgflip.com/4/46hhvr.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Mother Ignoring Kid Drowning In A Pool Meme Generator" class="mt-caption l but" href="/memegenerator/252758727/Mother-Ignoring-Kid-Drowning-In-A-Pool">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Marked Safe From Meme" href="/meme/Marked-Safe-From">Marked Safe From</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:14.441747572816px;padding-bottom:14.441747572816px">
+				<a title="Marked Safe From Meme" href="/meme/Marked-Safe-From">
+					<img class="shadow" style="width:150px;height:121.11650485437px" alt="Marked Safe From Meme Template" src="//i.imgflip.com/4/2odckz.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Marked Safe From Meme Generator" class="mt-caption l but" href="/memegenerator/Marked-Safe-From">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Bernie Sanders Once Again Asking Meme" href="/meme/224015000/Bernie-Sanders-Once-Again-Asking">Bernie Sanders Once Again Asking</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:19.276457883369px;padding-bottom:19.276457883369px">
+				<a title="Bernie Sanders Once Again Asking Meme" href="/meme/224015000/Bernie-Sanders-Once-Again-Asking">
+					<img class="shadow" style="width:150px;height:111.44708423326px" alt="Bernie Sanders Once Again Asking Meme Template" src="//i.imgflip.com/4/3pdf2w.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Bernie Sanders Once Again Asking Meme Generator" class="mt-caption l but" href="/memegenerator/224015000/Bernie-Sanders-Once-Again-Asking">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="I Bet He&#039;s Thinking About Other Women Meme" href="/meme/I-Bet-Hes-Thinking-About-Other-Women">I Bet He&#039;s Thinking About Other Women</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:32.829504232164px;padding-bottom:32.829504232164px">
+				<a title="I Bet He&#039;s Thinking About Other Women Meme" href="/meme/I-Bet-Hes-Thinking-About-Other-Women">
+					<img class="shadow" style="width:150px;height:84.340991535671px" alt="I Bet He&#039;s Thinking About Other Women Meme Template" src="//i.imgflip.com/4/1tl71a.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="I Bet He&#039;s Thinking About Other Women Meme Generator" class="mt-caption l but" href="/memegenerator/I-Bet-Hes-Thinking-About-Other-Women">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Clown Applying Makeup Meme" href="/meme/Clown-Applying-Makeup">Clown Applying Makeup</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="Clown Applying Makeup Meme" href="/meme/Clown-Applying-Makeup">
+					<img class="shadow" style="width:140.97744360902px;height:150px" alt="Clown Applying Makeup Meme Template" src="//i.imgflip.com/4/38el31.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Clown Applying Makeup Meme Generator" class="mt-caption l but" href="/memegenerator/Clown-Applying-Makeup">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="You Guys are Getting Paid Meme" href="/meme/177682295/You-Guys-are-Getting-Paid">You Guys are Getting Paid</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:23.365384615385px;padding-bottom:23.365384615385px">
+				<a title="You Guys are Getting Paid Meme" href="/meme/177682295/You-Guys-are-Getting-Paid">
+					<img class="shadow" style="width:150px;height:103.26923076923px" alt="You Guys are Getting Paid Meme Template" src="//i.imgflip.com/4/2xscjb.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="You Guys are Getting Paid Meme Generator" class="mt-caption l but" href="/memegenerator/177682295/You-Guys-are-Getting-Paid">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="This Is Where I&#039;d Put My Trophy If I Had One Meme" href="/meme/This-Is-Where-Id-Put-My-Trophy-If-I-Had-One">This Is Where I&#039;d Put My Trophy If I Had One</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:0px;padding-bottom:0px">
+				<a title="This Is Where I&#039;d Put My Trophy If I Had One Meme" href="/meme/This-Is-Where-Id-Put-My-Trophy-If-I-Had-One">
+					<img class="shadow" style="width:107.65550239234px;height:150px" alt="This Is Where I&#039;d Put My Trophy If I Had One Meme Template" src="//i.imgflip.com/4/1wz1x.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="This Is Where I&#039;d Put My Trophy If I Had One Meme Generator" class="mt-caption l but" href="/memegenerator/This-Is-Where-Id-Put-My-Trophy-If-I-Had-One">Add Caption</a>
+		</div><div class="mt-box">
+			<h3 class="mt-title">
+				<a title="Monkey Puppet Meme" href="/meme/Monkey-Puppet">Monkey Puppet</a>
+			</h3>
+			<div class="mt-img-wrap" style="padding-top:12.594799566631px;padding-bottom:12.594799566631px">
+				<a title="Monkey Puppet Meme" href="/meme/Monkey-Puppet">
+					<img class="shadow" style="width:150px;height:124.81040086674px" alt="Monkey Puppet Meme Template" src="//i.imgflip.com/4/2gnnjh.jpg"/>
+				</a>
+				
+			</div>
+			
+			<a title="Monkey Puppet Meme Generator" class="mt-caption l but" href="/memegenerator/Monkey-Puppet">Add Caption</a>
+		</div></div>
+
+		<div class='pager'><button type='button' disabled class='pager-first l but disabled'>First</button><button type='button' disabled class='pager-prev l but disabled'>&lsaquo; Prev</button><a class='pager-next l but' href='/memetemplates?page=2'>Next &rsaquo;</a></div>	</div>
+</div>
+
+<div id="footer">
+	<div id="footer-nav">
+		<a href="/pro?from=footer">Imgflip Pro</a>
+		<a href="/gif-maker">GIF Maker</a>
+		<a href="/memegenerator">Meme Generator</a>
+		<a href="/memetemplates">Blank Meme Templates</a>
+		<a href="/gif-templates">GIF Templates</a>
+		<a href="/chart-maker">Chart Maker</a>
+		<a href="/demotivational-maker">Demotivational Maker</a>
+		<a href="/image-resizer">Image Resizer</a>
+		<a href="/about">About</a>
+		<a href="/privacy">Privacy</a>
+		<a href="/terms">Terms</a>
+		<a href="/api">API</a>
+		<a href="/slack">Slack App</a>
+		<a href="/request_removal">Request Image Removal</a>
+		<span id="do-not-sell-btn" class="qc-ccpa-persistent-link"></span>
+	</div>
+	<div id="findUs">
+		<a id="on-fb" href="https://www.facebook.com/imgflip">Facebook</a>
+		<a id="on-tw" href="https://twitter.com/imgflip">Twitter</a>
+		<a id="on-android" href="https://play.google.com/store/apps/details?id=com.imgflip.twa">Android App</a>
+		<a id="on-chrome" href="https://chrome.google.com/webstore/detail/imgflip-quick-create/ipdbhnffahpohpdkcelabahpmlheidff">Chrome Extension</a>
+	</div>
+	<div id="footline">
+		Empowering creativity on teh interwebz
+		<br/>Imgflip LLC 2026	</div>
+
+	</div>
+
+<script src="https://s.imgflip.com/jq.js"></script>
+
+<script crossorigin='anonymous' src='//s.imgflip.com/v1478/common.js'></script>
+<script crossorigin='anonymous' src='//s.imgflip.com/v1478/memetemplates.js'></script>
+</body>
